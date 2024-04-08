@@ -1,5 +1,6 @@
 kaboom({
     backgroundAudio: true,
+    
 })
 
 // setBackground(Color.fromHex('#FFFFFF'))

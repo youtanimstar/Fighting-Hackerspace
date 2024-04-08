@@ -211,7 +211,7 @@ function setBattle(worldState) {
 
   const counter = add([
     rect(100, 80),
-    pos(center().x - 43, center().y - 270),
+    pos(640, 55),
     color(10, 10, 10),
     area(),
     anchor("center"),

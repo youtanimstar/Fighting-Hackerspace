@@ -10,7 +10,7 @@ loadSprite("jump-player1", "./assets/Player1/Jump.png", {
     sliceX: 3, sliceY: 1, anims: { "jump": { from: 0, to: 2, speed: 2, loop: true}}
 })
 loadSprite("attack-player1", "./assets/Player1/Attack1.png", {
-    sliceX: 7, sliceY: 1, anims: { "attack": { from: 0, to: 6, speed: 10}}
+    sliceX: 7, sliceY: 1, anims: { "attack": { from: 0, to: 6, speed: 18}}
 })
 loadSprite("run-player1", "./assets/Player1/Run.png", {
     sliceX: 8, sliceY: 1, anims: { "run": { from: 0, to: 7, speed: 18}}

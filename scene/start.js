@@ -20,10 +20,15 @@ function setStart(worldState) {
     height: 100,
     color: (193, 254, 255),
   };
+  console.log(background);
+  
   const startMenu = add([
     rect(recWidth.width, recWidth.height),
     outline(5, Color.fromHex("#FF0000")),
-    pos(width() / 2 - recWidth.width / 2, 300),
+    // anchor("center"),
+    // pos(background.width / 2 - recWidth.width / 2, background.height / 2 - recWidth.height / 2),
+    pos(1920 / 2 - recWidth.width-50, 250),
+    // pos((background.width - recWidth.width) / 2, 300),
     opacity(0.8),
     color(0, 0, 0),
   ]);
@@ -37,7 +42,7 @@ function setStart(worldState) {
       size: 48, // 48 pixels tall
       font: "sans-serif",
     }),
-    pos(80, height() - 90),
+    pos(80, 1080 - 500),
     color(10, 10, 10),
   ]);
   function flashScreen() {
